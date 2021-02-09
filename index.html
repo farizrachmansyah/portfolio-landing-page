@@ -1,0 +1,207 @@
+<!--
+    Fariz's Portfolio
+    Originally created and designed by Fariz
+    Copyright Fariz Rachmansyah's Portfolio - Depok, Indonesia
+    
+    Under Construction..
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fariz Rachmansyah - Portfolio Project</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <div id="mobile__nav" class="overlay">
+            <div class="overlay__content">
+                <a class="mobile__link" href="#" onclick="handle()">Work</a>
+                <a class="mobile__link" href="#" onclick="handle()">About</a>
+                <a class="mobile__link" href="#" onclick="handle()">Contact</a>
+            </div>
+        </div>
+        <!-- HEADER SECTION -->
+        <header class="headerPage">
+            <!-- NAVIGATION -->
+            <nav class="header__nav">
+                <div class="header__logo">
+                    <a href="./index.html" class="logo"><h1>fariz.</h1></a>
+                </div>
+                <div class="header__links">
+                    <ul class="links">
+                        <li><a class="link" href="#">Work</a></li>
+                        <li><a class="link" href="#">About</a></li>
+                        <li><a class="link" href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="header__hamburger" onclick="handle()">
+                    <div class="hamburger__line line1"></div>
+                    <div class="hamburger__line line2"></div>
+                    <div class="hamburger__line line3"></div>
+                </div>
+            </nav>
+
+            <!-- INTRO -->
+            <div class="header__intro">
+                <div class="intro__info">
+                    <h2 class="info">
+                        I'm Fariz Rachmansyah, a web developer based in Indonesia, specializing in Front-End Web Development.
+                    </h2>
+                    <a class="more__info dropdown">Check out my work <span class="info__arrow">&darr;</span></a>
+                </div>
+                <img src="./assets/header_intro.svg" alt="header svg" />
+            </div>
+        </header>
+
+        <!-- MAIN SECTION -->
+        <main class="mainPage">
+            <div class="main__content">
+                <!-- PROJECT -->
+                <div class="content__projects">
+                    <div class="project">
+                        <!-- PROJECT 1 -->
+                        <h2 class="project__title">#01 <span class="title__space"></span> CatetIn!</h2>
+
+                        <div class="project__info">
+                            <p class="project__desc">
+                                A phenomenal todo list app. This application is very often used as a reference to train the abilities of
+                                junior web developers, including me.
+                            </p>
+
+                            <button class="project__btn btn-show">show more</button>
+
+                            <button class="project__btn btn-visit">
+                                <a href="https://farizrachmansyah.github.io/todo-app/">visit</a>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT 2 -->
+                    <div class="project">
+                        <h2 class="project__title">#02 <span class="title__space"></span> DrumTap</h2>
+
+                        <div class="project__info">
+                            <p class="project__desc">Web application that serves to make your own drum instrument.</p>
+
+                            <button class="project__btn btn-show">show more</button>
+
+                            <button class="project__btn btn-visit">
+                                <a class="btn-visit" href="https://farizrachmansyah.github.io/drum-app/" target="_blank">visit</a>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT 3 -->
+                    <div class="project">
+                        <h2 class="project__title">#03 <span class="title__space"></span> MKKB Game</h2>
+
+                        <div class="project__info">
+                            <p class="project__desc">Masa Kecil Kurang Bahagia a.k.a an unhappy childhood</p>
+
+                            <button class="project__btn btn-show">show more</button>
+
+                            <button class="project__btn btn-visit">
+                                <a class="btn-visit" href="https://farizrachmansyah.github.io/batu-gunting-kertas/" target="_blank"
+                                    >visit</a
+                                >
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT 4 -->
+                    <div class="project">
+                        <h2 class="project__title">#04 <span class="title__space"></span> My Portfolio</h2>
+
+                        <div class="project__info">
+                            <p class="project__desc">This is an extraordinary portfolio web.</p>
+
+                            <button class="project__btn btn-show">show more</button>
+
+                            <button class="project__btn btn-visit">
+                                <a class="btn-visit" href="https://farizrachmansyah.netlify.app/" target="_blank">visit</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SKILLS -->
+                <div class="content__skills">
+                    <h1 class="skills__title">Tools that I Use</h1>
+                    <div class="skills">
+                        <div class="skill__card">
+                            <i class="fab fa-html5 fa-3x"></i>
+                        </div>
+                        <div class="skill__card">
+                            <i class="fab fa-css3 fa-3x"></i>
+                        </div>
+                        <div class="skill__card">
+                            <i class="fab fa-js fa-3x"></i>
+                        </div>
+                        <div class="skill__card">
+                            <i class="fab fa-sass fa-3x"></i>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skill__card">
+                            <i class="fab fa-bootstrap fa-3x"></i>
+                        </div>
+                        <div class="skill__card">
+                            <i class="fab fa-git-alt fa-3x"></i>
+                        </div>
+                        <div class="skill__card">
+                            <i class="fas fa-database fa-3x"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SERTIFICATES -->
+                <div class="content__sertificate"></div>
+
+                <!-- SERVICES -->
+                <div class="content__services"></div>
+            </div>
+        </main>
+
+        <!-- FOOTER SECTION -->
+        <footer class="footerPage">
+            <div class="footer__quotes">
+                <p>"There is no such thing as failure, just lessons to be learnt on the way."</p>
+                <br />
+                <p>- Fariz. R</p>
+            </div>
+            <div class="footer__info">
+                <ul class="footer__lists">
+                    <li class="list__item instagram" id="instagram">
+                        <i class="fab fa-instagram fa-lg"></i
+                        ><a href="https://www.instagram.com/farizrachmansyah" target="_blank"> Instagram</a>
+                    </li>
+                    <li class="list__item linkedin">
+                        <i class="fab fa-linkedin fa-lg"></i
+                        ><a href="https://www.linkedin.com/in/farizrachmansyah/" target="_blank"> LinkedIn</a>
+                    </li>
+                    <li class="list__item github">
+                        <i class="fab fa-github fa-lg"></i><a href="https://github.com/farizrachmansyah" target="_blank"> Github</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__copyright">
+                <p>&copy; 2021 by Fariz Rachmansyah</p>
+                <p>Created by Fariz</p>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="./script.js"></script>
+    </body>
+</html>
